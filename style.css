@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    height: 270px;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_logo{
+    height: 27px;
+    width: 120px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.instagram_icon{
+    height: 20px;
+    width: 20px;
+}
+.navmenu{
+    font-family: "Meiryo", sans-serif;
+    padding: 17px;
+    font-size: 14.4px;
+    color: #24292E;
+}
+.main_visual{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+.About_details{
+    display: flex;
+    justify-content: center;
+}
+.About_title{
+    font-family: "Meiryo", sans-serif;
+    font-size: 24px;
+    color: #24292E;
+    text-align: center;
+    margin-bottom: 74px;
+    margin-top: 87px;
+}
+.About_content{
+    text-align: left;
+    max-width: 827px;
+    margin: 0px 15px 0px 15px;
+    font-family: "Meiryo", sans-serif;
+    font-size: 14.4px;
+    color: #24292E;
+}
+.link{
+    font-family: "Meiryo", sans-serif;
+    font-size: 14.4px;
+    color: #24292E;
+}
+.details{
+    margin-top: 37px;
+    margin-bottom: 47px;
+    line-height: 1.7;
+}
+.profile_text{
+    line-height: 1.7;
+}
+.Works_title{
+    font-family: "Meiryo", sans-serif;
+    font-size: 24px;
+    color: #24292E;
+    text-align: center;
+    margin: 133px 0 70px 0;
+}
+.Works_content{
+    display: flex;
+    justify-content: center;
+}
+.Works_photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 840px;
+    gap: 24px;
+}
+.photo{
+    height: 172px;
+    width: 264px;
+}
+.News_title{
+    font-family: "Meiryo", sans-serif;
+    font-size: 24px;
+    color: #24292E;
+    text-align: center;
+    margin: 137px 0 87px 0;
+}
+.News_container{
+    display: flex;
+    justify-content: center;
+}
+.News_details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 827px;
+}
+.News_contents{
+    display: flex;
+    font-family: "Meiryo", sans-serif;
+    font-size: 14.4px;
+    color: #24292E;
+}   
+.date{
+    width: 20%;
+    border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
+    padding: 15px;
+    line-height: 1.7;
+}
+.News_text{
+    width:80%;
+    border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
+    padding: 15px;
+    line-height: 1.7;
+}
+.date1{
+    width: 20%;
+    border-top: 2px solid rgba(200, 200, 200, 0.3);
+    border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
+    padding: 15px;
+    line-height: 1.7;
+}
+.News_text1{
+    width:80%;
+    border-top: 2px solid rgba(200, 200, 200, 0.3);
+    border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
+    padding: 15px;
+    line-height: 1.7;
+}
