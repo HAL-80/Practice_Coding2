@@ -91,21 +91,36 @@
                     </div>
                     <div class="News_text">
                         【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+                    </div>
             </div>
         </div>
-    </div>
-    <div id="#Contact" class="Contact">
-        <h3 class="Contact_title">Contact</h3>
-        <!-- <form class="Contact_container">
-            <div class="name_part">
-                <div class="contact_text">
-                    Name
-                </div>
-                <div class="name_form">
-                    <input type="text" required>
-                </div>
+ </div>
+ <div id="#Contact" class="Contact">
+    <h3 class="Contact_title">Contact</h3>
+    <div class="form_container">
+        <form class="form">
+            <div class="form_content">
+                <div class="form_text">NAME</div>
+                <input type="text" id="name" name="name"required class="form_details">
             </div>
-        </form> -->
+            <div class="form_content">
+                <div class="form_text">E-mail</div>
+                <input type="email" id="email" name="email"required class="form_details">
+            </div>
+            <div class="form_content">
+                <div class="form_text">MESSAGE</div>
+                <textarea rows="4"required class="form_message"></textarea>
+            </div>
+        </form>
     </div>
+    <div class="button">
+        <button type="submit" class="submit_botton">送信する</button>
+    </div>
+ </div>
+    <footer class="footer">
+        <div class="footer_text">
+            © 2020 My Work
+        </div>
+    </footer>
 </body>
 </html>
