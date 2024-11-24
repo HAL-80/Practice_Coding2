@@ -110,27 +110,27 @@ nav{
 .date{
     width: 20%;
     border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
-    padding: 45px;
+    padding: 25px;
     line-height: 1.7;
 }
 .News_text{
     width:80%;
     border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
-    padding: 45px;
+    padding: 25px;
     line-height: 1.7;
 }
 .date1{
     width: 20%;
     border-top: 2px solid rgba(200, 200, 200, 0.3);
     border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
-    padding: 45px;
+    padding: 25px;
     line-height: 1.7;
 }
 .News_text1{
     width:80%;
     border-top: 2px solid rgba(200, 200, 200, 0.3);
     border-bottom: 2px solid rgba(200, 200, 200, 0.3);  /* 下に線を追加 */
-    padding: 45px;
+    padding: 25 px;
     line-height: 1.7;
 }
 .Contact_title{
